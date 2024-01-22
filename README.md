@@ -72,3 +72,4 @@ The provided code, located in the `general.c` file, is structured as follows:
 - James Bray
 - Sam Davis
 - Fabian Chrzanowski
+- James Hannon
