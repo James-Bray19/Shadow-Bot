@@ -1,2 +1,3 @@
 # Shadow-Bot
-Embedded code for navigating a two wheeled robot through a series of obstacles towards an infrared beacon.
+![image](https://github.com/James-Bray19/Shadow-Bot/assets/47334864/9623b240-3c67-4408-a0d1-930be017ca8c)
+
