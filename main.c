@@ -160,7 +160,7 @@ void turn(int dir, int ang){
         leftmotorB1 = 0;
         leftmotorB2 = 1;
 
-      // Count ticks
+        // Count ticks
         int temp = encoderLeft;
         while (count < ticks){
             if (temp != encoderLeft){ count++; } 
@@ -193,12 +193,12 @@ void turn(int dir, int ang){
 
 // Read left proximity sensor
 unsigned int readleftADC(void) {
-    ADCON0 = 0b00000011; // Select A/D channel AN0, start conversion
-    while (ADCON0bits.GO); // Do nothing while conversion in progress
-    return ((ADRESH << 8) + ADRESL); // Combines high and low A/D bytes into one value and returns this A/D value 0-1023
+    ADCON0 = 0b00000011;
+    while (ADCON0bits.GO);
+    return ((ADRESH << 8) + ADRESL);
 
 // Read right proximity sensor
 unsigned int readrightADC(void) {
-    ADCON0 = 0b00000111; // Select A/D channel AN0, start conversion
-    while (ADCON0bits.GO); // Do nothing while conversion in progress
-    return ((ADRESH << 8) + ADRESL); // Combines high and low A/D bytes into one value and returns this A/D value 0-1023
+    ADCON0 = 0b00000111; 
+    while (ADCON0bits.GO);
+    return ((ADRESH << 8) + ADRESL);
