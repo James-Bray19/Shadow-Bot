@@ -1,5 +1,6 @@
 # ShadowBot Navigation System
-![image](https://github.com/James-Bray19/Shadow-Bot/assets/47334864/9623b240-3c67-4408-a0d1-930be017ca8c)
+
+<img src="https://github.com/James-Bray19/Shadow-Bot/assets/47334864/9623b240-3c67-4408-a0d1-930be017ca8c" alt="Your Image Alt Text" style="display: block; margin: auto; width: 50%;" />
 
 ## Overview
 The Shadowbot Navigation code is designed for a two-wheel ShadowBot equipped with two proximity sensors, four LEDs, two motors, and two infrared sensors to follow an IR beacon. This README provides an overview of the system, its components, and how to use the provided code.
